@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube - Home</title>
+    <style>
+        /* Reset some default styles */
+        body, html, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: white; /* YouTube red color */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .search-bar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .search-bar input {
+            width: 400px; 
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-bar button {
+            background-color: #FF0000;
+            color: white;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        main {
+            display: flex;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+
+        .video-list {
+            flex: 2;
+            margin-right: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .sidebar {
+            flex: 1;
+        }
+
+        footer {
+            background-color: hwb(0 98% 2%);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .footer-links li {
+            margin-right: 10px;
+        }
+
+        .footer-info p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div>
+                <img src="./home.jpg" width="38px">
+            </div>
+            <div>
+                <img src="./ima.png">
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            <img src="./mice.png" height="35px" width="35px">
+            <img src="./jk3.jpeg" height="35px" width="35px">
+        </div>
+    </header>
+
+    <main>
+        <section class="video-list">
+
+            <div class="video-thumbnail">
+                <img src="y8.jpg" alt="Video 1 Thumbnail" height="147%" width="147%">
+                <img src="y9.jpg" alt="Video 1 Thumbnail" height="147%" width="147%">
+                <img src="y10.jpg" alt="Video 1 Thumbnail" height="147%" width="147%">
+               
+                
+               
+            </div>
+
+        </section>
+        <aside class="sidebar">
+        </aside>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="https://www.youtube.com/">Home</a></li>
+                <li><a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl">Trending</a></li>
+                <li><a href="https://www.youtube.com/feed/subscriptions">Subscriptions</a></li>
+                <li><a href="https://www.youtube.com/feed/library">Library</a></li>
+            
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2023 YouTube, LLC</p>
+        </div>
+    </footer>
+</body>
+</html>
